@@ -3,10 +3,6 @@ import { PasskeyModal } from "@/components/app-comps/PassKeyModal";
 import Image from "next/image";
 import Link from "next/link";
 
-
-
-// import { PasskeyModal } from "@/components/PasskeyModal";
-
 const Home = ({ searchParams }: SearchParamProps) => {
   const isAdmin = searchParams?.admin === "true";
 
